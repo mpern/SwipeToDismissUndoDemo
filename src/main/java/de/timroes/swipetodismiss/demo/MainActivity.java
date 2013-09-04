@@ -179,7 +179,7 @@ public class MainActivity extends  ActionBarActivity implements android.widget.A
 	public boolean onCreateOptionsMenu(Menu menu) {
 		MenuInflater inflater = getMenuInflater();
 		inflater.inflate(R.menu.menu, menu);
-		return true;
+		return super.onCreateOptionsMenu(menu);
 	}
 
 	/**
